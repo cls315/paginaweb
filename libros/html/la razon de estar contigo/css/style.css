@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.xtrafondos.com/wallpapers/resized/ubuntu-15-vivid-vervet-greyscale-3442.jpg?s=large) ;
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+}
+
+.header{
+    background-color: #ff91a2 ;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+    padding: 0 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 60px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link:hover{
+    background-color: #ff70be ;
+    transition: 0.5s;
+}
+
+main{
+    padding: 25px;
+    font-family: 'PT Serif', serif;
+}
+
+.contairner{
+    margin-bottom: 5px;
+}
+
+
+
+
